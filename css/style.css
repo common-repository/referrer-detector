@@ -1,0 +1,110 @@
+.rd_box
+{
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 10px;
+    margin: 10px 0;
+    clear: both;
+	overflow: hidden;
+}
+
+.rd_icon
+{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.rd_close
+{
+	font-size: 12px;
+    display: block;
+    background: #e1e1e1;
+    float: right;
+    margin: 0 0 10px 10px ;
+    text-align: center;
+    width: 16px;
+    line-height: 16px;
+    color: #fff;
+    border: 1px solid #eee;
+}
+
+.rd_text
+{
+    margin: 0 30px 0 60px;
+    text-align: left;
+}
+
+.rd_related_toggler
+{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 9px;
+    float: left;
+    color: #bbb;
+}
+
+.rd_meta
+{
+    border-top: 1px solid #f7f7f7;
+    margin: 10px 0 0 0;    
+    padding: 5px 0 0 0;
+}
+
+.rd_meta ul
+{
+    border-bottom: 1px solid #f7f7f7; 
+    margin-bottom: 5px;
+}
+
+.rd_powered
+{
+    font-size: 9px;
+    float: right;
+    color: #bbb;  
+}
+
+.rd_powered a
+{
+    font-weight: bold;
+    color: #bbb;
+}
+
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2009 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 185 2009-02-09 21:51:12Z emartin24 $
+ *
+ */
+
+
+/* Overlay */
+#simplemodal-overlay {background:#000;}
+
+/* Container */
+#simplemodal-container {
+    width:520px; background:#fff; border:3px solid #ccc;
+}
+#simplemodal-container a.modalCloseImg {background:url('../images/x.png') no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-15px; cursor:pointer;}
+
+#simplemodal-container .rd_box
+{
+    margin: 0 !important;
+}
+
+#simplemodal-container .rd_close
+{
+    display: none !important;
+}
+
+#simplemodal-container .rd_text
+{
+	background: #fff;
+    margin: 0 0 0 60px !important;
+}
